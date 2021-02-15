@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From project-1</title>
+</head>
+<style>
+    h1 {
+        color: red;
+    }
+    body {
+        background-color: greenyellow;
+    }
+    h1, form {
+        text-align: center;
+    }
+    </style>
+    
+<body>
+    <h1>Personal Details</h1>
+    <form action="/action.php" method="GET">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="pass"> <br><br>
+
+    <label for="gen">Gerder:</label>
+    <input type="radio" id="Male" name="gen">
+    <label for="gen">Male</label>
+    <input type="radio" id="female" name="gen">
+    <label for="">Female</label><br><br>
+
+    <label for="email">E-mail id:</label>
+
+        <input type="email" id="email" name="email"><br><br>
+
+
+        <label for="Contact">Contact</label>
+        <input type="tel" id="Contact" name="Contact"><br>
+
+        <h1>Educational Qualification</h1> 
+
+        <label for="degree">Degree</label>
+       <select name="degree" id="degree">
+           <option value="--Select group--">--Select group--</option>
+           <option value="H.S.C">H.S.C</option>
+           <option value="M.SC">M.sc</option>
+       </select><br><br>
+
+        <label for="eng">Engineering</label>
+        <select name="eng" id="eng">
+            <option value="--Select group--">--Select group--</option>
+            <option value="EEE">EEE</option>
+            <option value="ECE">ECE</option>
+        </select><br><br>
+
+        <label for="Hobbies">Hobbies</label>
+        <input type="checkbox">
+        <label for="Chess">Chess</label>
+    <input type="checkbox">
+    <label for="Reading Book">Reading Book</label><br>
+    <h1>Address</h1>
+    <textarea name="Address" id="Address" cols="30" rows="5"></textarea><br>
+    <label for="file">attach resume</label>
+    <input type="file" id="file" name="file"> <br><br>
+
+    <input type="submit" value="Submit"> <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

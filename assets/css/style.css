@@ -1,0 +1,91 @@
+.them img {
+    width: 99%;
+    height: 320px;
+    margin: auto;
+    display: block;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: burlywood;
+    columns: 4;
+    column-rule: 2px solid rgb(72, 5, 228);
+    column-gap: 2px ;
+    border-radius: 6px;
+}
+nav a{
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+}
+nav a:hover {
+    color: lightcyan;
+    background-color: darkblue;
+}
+
+.main img {
+    height: 240px;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 4px;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+.f1 {
+    float: left;
+}
+.f2 {
+    float: right;
+}
+.main {
+    margin-inline-start: 0.5%;
+    background-color: khaki;
+    margin-top: 5px;
+    float: left;
+    width: 44%;
+    overflow: auto;
+}
+.side img {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+body {
+    background-color: gray;
+}
+.side {
+    margin-top: 5px;
+    background-color: greenyellow;
+    float: right;
+    overflow: auto;
+    float: right;
+    width: 30%;
+    padding-top: 5px;
+}
+.if {
+    margin-top: 5px;
+    border-spacing: 1px;
+    float: left;
+    width: 25%;
+    background-color: lawngreen;
+    padding-top: 5px;
+}
+footer {
+    background-color: purple;
+    border: 1px solid lightgreen;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+    padding: 2px;
+}

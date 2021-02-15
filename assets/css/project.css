@@ -1,0 +1,60 @@
+.them {
+    
+    margin-left: 60px;
+}
+.them img{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+.sidenav a{
+        position: absolute;
+        font-size: 20px;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        left: -80px;
+        color: white;
+        transition: 0.3s;
+        border-radius: 0 5px 5px 0;
+}
+.sidenav a:hover{
+    left: 0;
+}
+#home{
+    top: 20px;
+    background-color: chartreuse;
+    color: black;
+}
+#contact{
+    top: 80px;
+    background-color: darkblue;
+}
+#works{
+    top: 140px;
+    background-color: dodgerblue;
+}
+#about{
+    top:200px ;
+    background-color: orangered;
+}
+.project {
+    margin-top: 2px;
+    margin-left: 60px;
+    width: 93%;
+    background-color: dodgerblue;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+}
+.project a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+  
+
+}
+.project a:hover {
+    background-color: rgb(18, 231, 231);
+}

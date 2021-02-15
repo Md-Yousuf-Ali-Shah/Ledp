@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project-2</title>
+</head>
+<style>
+    body {
+        background-color: yellowgreen;
+    }
+    table { 
+        font-size: 20px;
+        margin: auto;
+        border-collapse: separate;
+        
+    }
+    td{background-color: rgb(169, 248, 90);
+        border-spacing: 2px;
+        border: 2px solid white;
+        padding: 15px;
+       
+    }
+    th {
+        text-align: left;
+    
+    }
+   
+  .t3 {
+        border-radius: 5px;
+  }
+  .f1 {
+      border-right-style: none;
+      border-radius: 7px 0 0 7px;
+  }
+  .f2 {
+      border-left-style: none;
+      border-radius: 0 7px 7px 0;
+  }
+  .f3 {
+      border-radius: 7px;
+  }
+  p {
+      margin: 4px;
+      text-align: center;
+  }
+  #submit {
+      border-radius: 5px;
+  }
+</style>
+<body>
+</body>
+<form action="" method="get"> 
+    <table>
+    <th colspan="3">Step 1: Your Details</th>
+    <tr>
+        <td class="f1"><label for="name">Name</label>
+        </td>
+        <td class="f2">
+            <input type="text" id="name" name="name" placeholder="First and Last Name" class="t3">
+        </td>
+    <tr>
+        <td class="f1">
+            <label for="email">Email</label>
+        </td>
+        <td class="f2">
+        <input type="email" name="email" id="email" placeholder="example@domain.com" class="t3">
+    </td>
+    </tr>
+    <tr>
+        <td class="f1">
+            <label for="phone">Phone</label>
+        </td>
+        <td class="f2">
+            <input type="tell" id="phone" name="phone" placeholder="Ex +8801XXXXXXXXX" class="t3"> 
+        </td>
+    </tr>
+
+    <th  colspan="3">Step 2: Delivary Address</th>
+    <tr>
+        <td class="f1">
+            <label for="address">Address</label></td>
+            <td class="f2">
+                <textarea name="address" id="address" cols="17" rows="4" class="t3"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="f1">
+            <label for="post">Post Code</label>
+        </td>
+        <td class="f2"><input type="tel" name="post" id="post" class="t3"></td>
+    </tr>
+    <tr>
+        <td class="f1">
+            <label for="country">Country Code</label>
+        </td>
+        <td class="f2"><input type="text" name="country" id="country" class="t3"></td>
+    </tr>
+
+    <tr
+    ><th colspan="3">Step 3:Card Details</th>
+</tr>
+    <tr>
+        <td class="f3" colspan="2">Card type
+         <br>
+      
+            <input type="radio" name="card" id="visa">
+        
+            <label for="visa">Visa</label>
+     
+            <input type="radio" name="card" id="AmEx">
+        
+            <lable for="AmEx">AmEx</lable>
+
+       <input type="radio" name="card" id="Master">
+
+        <label for="Master">Mastercard</label></td>
+    </tr>
+    <tr>
+        <td class="f1"><label for="cardnum">Card Number</label></td>
+        <td class="f2"><input type="text" id="cardnum" name="cardnum" class="t3"></td>
+    </tr>
+    <tr>
+        <td class="f1">
+            <label for="security">Security Code</label>
+        </td>
+        <td class="f2"><input type="text" name="security" id="security" class="t3"></td>
+        <tr>
+        <td class="f1">
+            <label for="nane on card">Name on Card</label>
+        </td>
+        <td class="f2">
+            <input type="text" name="nane on card" id="nane on card" placeholder="Exact as on the card" class="t3">
+        </td>
+    </tr>
+    <tfoot>
+        <th colspan="2"><p> <input type="submit" value="BUY IT" id="submit"> &nbsp;<input type="reset" value="Reset" id="submit"></p> </th>
+    </tfoot>
+</table>
+</form> 
+</html>

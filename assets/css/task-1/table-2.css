@@ -1,0 +1,50 @@
+ h1 {
+        color: rgb(7, 193, 250);
+        font-style: italic;
+    }
+
+    table,
+    th,
+    td {
+        margin: auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 30px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    #paste {
+        background-color: rgba(5, 238, 180, 0.945);
+    }
+    #green {
+background-color: rgb(19, 224, 19);
+    }
+    #yellow {
+        background-color: yellow;
+    }
+    #blue {
+        background-color: rgb(7, 151, 151);
+    }
+    #ass {
+        background-color: salmon;
+    }
+   
+      
+    #t2 {
+        width: 430px;
+       
+    border-collapse: separate;
+    }
+   
+     #h2 {
+        
+        color: rgb(10, 83, 240);
+
+    }
