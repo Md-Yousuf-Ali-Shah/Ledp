@@ -1,0 +1,36 @@
+.sidenav a{
+    position: absolute;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    left: -75px;
+    color: white;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+}
+.sidenav a:hover{
+    left: 0;
+}
+#Home {
+    top: 17px;
+    background-color: yellowgreen;
+}
+#contact{
+    top: 67px;
+    background-color: blue;
+}
+#Works{
+    top: 117px;
+    background-color: dodgerblue;
+}
+#About{
+    top: 169px;
+    background-color: mediumaquamarine;
+}
+
+.theme img{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
