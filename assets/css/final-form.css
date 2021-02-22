@@ -1,14 +1,19 @@
-body {
-    background-image: url("../img/task-5/form/w04Isu.jpg");
-    
+.bg-img{
+    background-image: url(../img/task-5/form/w04Isu.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    background-position: center;
     
 }
-.container {
+
+.con{
+    padding: 15px  15px 0 15px;
     border-radius: 5px;
     background-color: rgba(3, 15, 41, 0.514);
-    color: whitesmoke;}
+    color: whitesmoke;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 header{
     margin-top: 15px;
     text-align: center;
