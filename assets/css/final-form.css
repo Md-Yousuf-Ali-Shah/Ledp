@@ -1,3 +1,24 @@
+.sidenav a{
+    position: absolute;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    left: -75px;
+    color: white;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+}
+.sidenav a:hover{
+    left: 0;
+}
+#Home {
+    top: 17px;
+    background-color: yellowgreen;
+}
+#Works{
+    top: 117px;
+    background-color: dodgerblue;
+}
 .bg-img{
     background-image: url(../img/task-5/form/w04Isu.jpg);
     background-repeat: no-repeat;
