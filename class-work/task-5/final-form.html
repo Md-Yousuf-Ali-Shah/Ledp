@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is final form</title>
+</head>
+<link rel="stylesheet" href="../../assets/css/final-form.css">
+<link rel="stylesheet" href="../../assets/css/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+<script src="../../assets/css/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+<body>
+    <!--heading start-->
+    <header>
+        <h1>LEDP Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <!--heading end-->
+    <!--form start-->
+    <div class="container">
+        <form method="POST">
+             <div class="mb-3">
+                 <label for="Name" class="form-label">Name</label>
+                <input type="Name" class="form-control" id="Name" placeholder="Enter your Name">
+             </div>
+             <div class="mb-3">
+                 <label for="Email" class="form-label">Email</label>
+                 <input type="email" class="form-control" id="Email" placeholder="Enter your Email">
+             </div>
+             <div class="mb-3">
+                 <label for="age" class="form-label">Age(optional)</label>
+                <input type="datetime" class="form-control" id="age" placeholder="Age">
+             </div>
+             <div class="mb-3">
+                 <label for="current role" class="form-label dropdown">Whice option best describes your current role?</label>
+                <select class="form-select" name="current role" id="current role">
+                    <option value="current role">Select current role</option>
+                    <option value="current role">Design</option>
+                    <option value="current role">Htlm</option>
+                    <option value="current role">Css</option>
+                    <option value="current role">Bootstrap</option>
+                    <option value="current role">Java</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="improve">What would you like to see improved?</label><br>
+                 <input type="checkbox" name="Front-end Project" id="Front-end Project" value="Front-end-Projects">
+                 <label for="Front-end Project">Front-end Project</label><br> <input type="checkbox" name="Back-end Project" id="Back-end Project" value="Back-end-Projects">
+                 <label for="Back-end Project">Back-end Project</label><br> <input type="checkbox" name="Data Visualization" id="Data Visualization" value="Data Visualization">
+                <label for="Data Visualization">Data Visualization</label><br> <input type="checkbox" name="Challenges" id="Challenges" value="Challenges">
+                <label for="Challenges">Challenges</label><br> <input type="checkbox" name="Open Source Community" id="Open Source Community">
+                <label for="Open Source Community" aria-valuemax="Open Source Community">Open Source Community</label><br> <input type="checkbox" name="Gitter help rooms" id="Gitter help rooms">
+                <label for="Gitter help rooms" >Gitter help rooms</label><br> <input type="checkbox" name="Videos" id="Videos" value="Videos">
+                <label for="Videos">Videos</label><br> <input type="checkbox" name="City Meetups" id="City Meetups">
+                 <label for="City Meetups">City Meetups</label><br> <input type="checkbox" name="Wiki" id="Wiki" value="Wiki">
+                 <label for="Wiki">Wiki</label><br> <input type="checkbox" name="Forum" id="Forum" value="Forum">
+                <label for="Forum">Forum</label><br>
+                 <input type="checkbox" name="Additional Courses" id="Additional Courses" value="Additional Courses">
+                <label for="Additional Courses">Additional Courses</label>
+            </div>
+            <div class="mb-3">
+                <label for="Suggestion">Any comments or suggestion</label><br>
+                 <textarea name="Suggestion" id="Suggestion" cols="30" rows="05" placeholder="Enter your comment here..." class="form-control"></textarea>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary form-control" type="submit">Submit form</button>
+              </div>
+              <div class="pb-4">
+                <button class="btn btn-primary form-control" type="reset">Reset form</button>
+              </div>
+        </form>
+    </div>
+    
+</body>
+</html>

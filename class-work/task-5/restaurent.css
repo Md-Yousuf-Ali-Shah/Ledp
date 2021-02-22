@@ -1,0 +1,25 @@
+body {
+   /* background-image: linear-gradient(to right bottom, #f253d0, #d058dd, #a75ee6, #7464eb, #1267eb);*/
+   background-image: linear-gradient(to right bottom, #fd23ce, #f627d5, #ee2cdd, #e531e4, #db37eb, #ce3cef, #c140f3, #b244f6, #9d48f7, #854bf7, #6a4ef7, #4750f6);
+   background-repeat: no-repeat;
+}
+#theme{
+      display: block;
+      width: 100%;
+      height: 275px;
+  }
+.top {
+    background-color: rgba(243, 205, 33, 0.904);
+    position: absolute;
+    top: 40%;
+    left: 13%;
+}
+.bottom {
+    background-color: rgba(243, 205, 33, 0.904);
+    position: absolute;
+    bottom: 40%;
+    left: 13%;
+}
+.price {
+    float: right;
+}
