@@ -41,3 +41,8 @@ header{
     color: whitesmoke;
     font-family: 'sans-serif, times new roman, Segoe UI', Tahoma,  Verdana;
 }
+header p mark{
+    background-color: rgb(31, 97, 219);
+    color: whitesmoke;
+    border-radius: 5px;
+}
