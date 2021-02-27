@@ -1,0 +1,163 @@
+body{
+    background-image:url(../../assets/img/task-5/topography.svg), linear-gradient(to right bottom, #fd23ce, #f627d5, #ee2cdd, #e531e4, #db37eb, #ce3cef, #c140f3, #b244f6, #9d48f7, #854bf7, #6a4ef7, #4750f6);
+    background-attachment: fixed;
+    background-size: 300px, auto;
+    
+}
+/* nav with flex */
+.wrapper {
+    display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   text-align: center;
+ }
+ 
+ .wrapper > * {
+   flex: 187.5px;
+   margin: 10px;
+ }
+
+ .wrapper > div {
+    background-color: rgb(89,161,175);
+    border-radius: 5px;
+    padding: 10px;
+    /* color: #fff; */
+    font-weight: bold;
+  }
+  nav a:hover{
+      background: yellow;
+  }
+  .flex>a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  /* main img with grid */
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 7px;
+    padding: 9px;
+    grid-template-areas: 
+    "item-1 item-1 item-2"
+    "item-1 item-1 item-3";
+}
+#item-1{
+    background-image: url(../../assets/img/task-5/taco.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    grid-area: item-1;
+}
+#item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: yellow;
+    grid-area: item-2;
+}
+#item-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: yellow;
+    grid-area: item-3;
+}
+h1,h2,h4{
+    margin: 0;
+}
+.i1{
+    background: chocolate;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 576PX) {
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr;
+        grid-template-areas: "item-1"
+        "item-2"
+        "item-3";
+    }
+} 
+@media(max-width: 768PX) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-areas: "item-1 item-1"
+        "item-2 item-3";
+    }
+}
+/* Second img */
+.img-wrap{
+    
+    margin: auto;
+    padding: 8px;
+  
+}
+.img-2{
+    background: url(../../assets/img/task-5/queso-taco.png), whitesmoke;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 400px;
+    
+    
+    
+}
+.text{overflow:auto;
+}
+.button {
+    background-color: chocolate;
+    padding: 5px;
+}
+.button a{
+    text-decoration: none;
+    text-align: center;
+    color: cornsilk;
+    font-size: 18px;
+}
+
+/* border */
+.border{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.border::after,.border::before{
+    content:"";
+    border-width: 5px;
+    border-style: solid;
+    flex-grow: 1;
+    margin: auto;
+}
+.border::before{
+    margin-right: 5px;
+    border-image:
+    linear-gradient(
+        to left,
+        rgb(236, 221, 17), rgba(14, 4, 4, 0)
+    )1;
+}
+.border::after {
+    margin-left: 5px;
+    border-image: linear-gradient(
+        to right,
+        rgb(236, 221, 17), rgba(14, 4, 4, 0)
+    )1;
+
+}
