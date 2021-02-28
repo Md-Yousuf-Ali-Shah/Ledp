@@ -99,26 +99,43 @@ h1,h2,h4{
     }
 }
 /* Second img */
+.img-content{
+    margin-left: 11px;
+    margin-right: 11px;
+}
 .img-wrap{
-    
-    margin: auto;
-    padding: 8px;
-  
-}
-.img-2{
-    background: url(../../assets/img/task-5/queso-taco.png), whitesmoke;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-position: left;
+    background-color: whitesmoke;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 400px;
-    
-    
-    
+    padding-left: 30px;
+    overflow: auto;
+
 }
-.text{overflow:auto;
+.text{
+    
+   margin-top: auto;
+   margin-bottom: auto;
+    
+ 
+}
+@media(max-width:768px) {
+    .img-wrap>img{
+        /* height: 120px; */
+       
+    }
+    .img-wrap{
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+}
+@media(max-width:576px) {
+    .img-wrap>img{
+        height: 180px;
+       
+    }
+    .img-wrap{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .button {
     background-color: chocolate;
@@ -132,20 +149,21 @@ h1,h2,h4{
 }
 
 /* border */
-.border{
+.borde{
     display: flex;
     flex-direction: row;
     padding: 10px;
+    
 }
 
-.border::after,.border::before{
+.borde::after,.borde::before{
     content:"";
     border-width: 5px;
     border-style: solid;
     flex-grow: 1;
     margin: auto;
 }
-.border::before{
+.borde::before{
     margin-right: 5px;
     border-image:
     linear-gradient(
@@ -153,7 +171,7 @@ h1,h2,h4{
         rgb(236, 221, 17), rgba(14, 4, 4, 0)
     )1;
 }
-.border::after {
+.borde::after {
     margin-left: 5px;
     border-image: linear-gradient(
         to right,
