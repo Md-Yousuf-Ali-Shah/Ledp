@@ -6,7 +6,7 @@
 } */
 
 
-h1{ 
+h1,h2{ 
     text-transform: uppercase;
 }
 h1 span{
@@ -18,7 +18,7 @@ h1 span{
 }
 .tell{
     
-    margin-top: 12px ;
+    margin-top: 9px ;
 }
 
 .tel-wrap>.tell{
@@ -84,6 +84,59 @@ h1 span{
     color: white;
  }
  /* Ready solution */
+ h2 span{
+     font-size: 45px;
+ }
+h5{
+    color: tomato;
+}
+ .ready-col{
+     border-radius: 7px;
+     background-color: #ffd200;
+ }
+/* .sec{
+    margin-left: -15px;
+    margin-right: -50px;
+} */
+
+.grid{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr;
+    grid-template-areas: 
+                "item1 item2 item3";
+}
+.item1{
+    grid-area: "item1";
+}
+.item2{
+    grid-area: "item2";
+}
+.item3{
+    grid-area: "item3";
+}
+
+@media(max-width:768px){
+    .grid{
+        grid-template-columns: 0.7fr 0.7fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+                    "item1 item2"
+                    
+                    "item3 item3";
+    }
+}
+@media(max-width:576px){
+    .grid{
+        grid-template-columns: 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+                    "item2"
+                    "item1"
+                    "item3";
+    }
+}
  /* Testimonials */
  .t-img{
      overflow: auto;
